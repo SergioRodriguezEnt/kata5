@@ -1,6 +1,7 @@
 package software.ulpgc.kata5.application;
 
 import software.ulpgc.kata5.architecture.io.MovieLoader;
+import software.ulpgc.kata5.architecture.io.Storer;
 import software.ulpgc.kata5.architecture.viewmodel.Histogram;
 import software.ulpgc.kata5.architecture.viewmodel.HistogramBuilder;
 import software.ulpgc.kata5.architecture.model.Movie;
