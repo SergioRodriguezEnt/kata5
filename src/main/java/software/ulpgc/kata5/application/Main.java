@@ -1,5 +1,8 @@
 package software.ulpgc.kata5.application;
 
+import software.ulpgc.kata5.application.io.DatabaseStorer;
+import software.ulpgc.kata5.application.io.RemoteMovieLoader;
+import software.ulpgc.kata5.application.io.Store;
 import software.ulpgc.kata5.architecture.io.MovieLoader;
 import software.ulpgc.kata5.architecture.io.Storer;
 import software.ulpgc.kata5.architecture.viewmodel.Histogram;

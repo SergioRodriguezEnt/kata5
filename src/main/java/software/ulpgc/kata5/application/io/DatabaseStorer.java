@@ -1,4 +1,4 @@
-package software.ulpgc.kata5.application;
+package software.ulpgc.kata5.application.io;
 
 import software.ulpgc.kata5.architecture.io.Storer;
 import software.ulpgc.kata5.architecture.model.Movie;
@@ -17,7 +17,7 @@ public class DatabaseStorer extends Storer {
     public DatabaseStorer(Connection connection) throws SQLException {
         this.connection = connection;
         createTableIfNotExists();
-        statement = connection.prepareStatement("INSERT INTO movies (tile, year, duration) VALUES (?, ?, ?)");
+        statement = connection.prepareStatement("INSERT INTO movies (title, year, duration) VALUES (?, ?, ?)");
     }
 
     private void createTableIfNotExists() throws SQLException {

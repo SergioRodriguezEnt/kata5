@@ -1,4 +1,4 @@
-package software.ulpgc.kata5.application;
+package software.ulpgc.kata5.application.io;
 
 import software.ulpgc.kata5.architecture.io.MovieLoader;
 import software.ulpgc.kata5.architecture.io.Storer;
